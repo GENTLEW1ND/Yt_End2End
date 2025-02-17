@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Yt_End2End"
 AUTHOR_USER_NAME = "GENTLEW1ND"
-SRC_REPO = "ml_project"
+SRC_REPO = "yt_mlProject"
 AUTHOR_EMAIL = "rajchakraborty029@gmail.com"
 
 setuptools.setup(

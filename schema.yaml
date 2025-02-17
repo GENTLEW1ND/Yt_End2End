@@ -1,0 +1,33 @@
+COLUMNS:
+      video_id: object 
+      day: object 
+      views: float64
+      redViews: float64
+      comments: float64
+      likes: float64
+      dislikes: float64
+      videosAddedToPlaylists: float64
+      videosRemovedFromPlaylists: float64
+      shares: float64
+      estimatedMinutesWatched: float64
+      estimatedRedMinutesWatched: float64
+      averageViewDuration: float64
+      averageViewPercentage: float64
+      annotationClickThroughRate: float64
+      annotationCloseRate: float64
+      annotationImpressions: float64
+      annotationClickableImpressions: float64
+      annotationClosableImpressions: float64
+      annotationClicks: float64
+      annotationCloses: float64
+      cardClickRate: float64
+      cardTeaserClickRate: float64
+      cardImpressions: float64
+      cardTeaserImpressions: float64
+      cardClicks: float64
+      cardTeaserClicks: float64
+      subscribersGained: float64
+      subscribersLost: float64
+
+TARGET_COLUMN:
+  name: views
