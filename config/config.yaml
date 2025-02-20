@@ -2,5 +2,10 @@ artifacts_root: artifacts
 
 data_ingestion:
     root_dic: artifacts/data_ingestion
-    source_URL: Yt_End2End\research\all_youtube_analytics.csv
+    # source_URL: Yt_End2End\research\all_youtube_analytics.csv
     local_data_file: artifacts/data_ingestion
+
+data_validation:
+    root_dir: artifacts\data_validation
+    unzip_data_dir: artifacts\data_ingestion\all_youtube_analytics.csv
+    STATUS_FILE: artifacts\data_validation\status.txt

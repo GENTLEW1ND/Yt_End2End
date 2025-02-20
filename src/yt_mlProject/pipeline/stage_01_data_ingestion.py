@@ -1,3 +1,6 @@
+## Not in use Right now and some changes are needed in config_entity file to extract zip file.
+## Also some changes are needed in configuration.py file for the same reason
+
 from yt_mlProject.config.configuration import ConfigurationManager
 from yt_mlProject.components.data_ingestion import dataIngestion
 from yt_mlProject import logger
