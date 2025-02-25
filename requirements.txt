@@ -1,5 +1,4 @@
 pandas 
-# notebook
 numpy
 scikit-learn
 matplotlib
@@ -10,5 +9,4 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
-tensorflow
 -e .
